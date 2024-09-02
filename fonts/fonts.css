@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('./MuseoSansCyrl500.woff') format('woff');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('./MuseoSansCyrl700.woff') format('woff');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('./MuseoSansCyrl900.woff') format('woff');
+    font-style: normal;
+    font-weight: 900;
+}

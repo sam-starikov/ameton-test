@@ -1,0 +1,54 @@
+.help {
+    &__title {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1.2;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    &__list {
+    }
+
+    &__list-item {
+        border-radius: 16px;
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+
+        &:not(:last-child) {
+            margin-bottom: 8px;
+        }
+
+        button {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;
+            padding: 20px 50px 20px 20px;
+
+            text-align: start;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 1.4;
+            color: var(--grey-dark);
+
+            strong {
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 1.2;
+                color: var(--main-color);
+                margin-bottom: 4px;
+            }
+
+            &::after {
+                content: url(./../img/icons/arrow-right-01.svg);
+                position: absolute;
+                top: 50%;
+                right: 20px;
+                width: 24px;
+                height: 24px;
+                transform: translate(50%, -50%);
+            }
+        }
+    }
+}

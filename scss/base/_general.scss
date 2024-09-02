@@ -1,0 +1,59 @@
+html,
+body {
+    font-family: 'MuseoSans', sans-serif;
+    color: var(--main-color);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+a {
+    color: currentColor;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 0 80px;
+
+    &__header {
+        margin-bottom: 82px;
+    }
+
+    &__socials {
+        margin-bottom: 80px;
+    }
+
+    &__faq {
+        margin-bottom: 80px;
+    }
+}
+
+.container {
+    max-width: 1230px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    &--sm {
+        max-width: 1030px;
+    }
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 15px 25px;
+    border-radius: 12px;
+    color: var(--main-color);
+    background-color: var(--accent-color);
+
+    &--green {
+        background-color: var(--green);
+        color: #fff;
+        max-width: 224px;
+        width: 100%;
+    }
+}
